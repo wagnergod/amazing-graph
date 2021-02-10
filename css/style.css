@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: Roboto, sans-serif;
+}
+
+.container_header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 30px 100px 30px;
+
+
+}
+
+.container_header h2{
+
+	color:#D2872C;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.container_header .menu ul{
+
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	font-size: 20px;
+
+
+	
+}
+
+.container_header .menu ul li{
+
+	padding-right: 20px;
+
+
+}
+
+.container_header .menu ul li a{
+
+	text-decoration: none;
+	color:#766F68;
+
+	
+}
+
+.container{
+
+	padding-left: 75px;
+	padding-bottom: 150px;
+	color:#766F68;
+	background-image: url(../assets/team.jpg);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: bottom right; 
+}
+
+.container h2{
+
+	width:50%;
+	font-size: 70px;
+	padding-bottom: 20px;
+
+
+}
+
+.container p{
+
+	width:40%;
+	font-size: 30px;
+	padding-bottom: 40px;
+
+
+}
+
+.container button{
+
+	background-color: #D2872C;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 80px 10px 80px;
+	border-radius: 5px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
