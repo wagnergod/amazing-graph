@@ -4,6 +4,15 @@
 	box-sizing: border-box;
 }
 
+-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+html{
+	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
 
 body{
 	font-family: Roboto, sans-serif;
@@ -14,87 +23,72 @@ body{
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: 40px 30px 100px 50px;
-
-
+	padding: 40px 30px 100px 40px;
 }
 
 .container_header h2{
 
 	color:#D2872C;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 2em;
 }
 
-.container_header .menu ul{
+.container_header .mobile_menu div {
+  display: inline;
+  visibility: none;
+} 
 
+.container_header .menu ul{
 	display: flex;
 	align-items: center;
 	list-style-type: none;
-	font-size: 30px;
-
-
-	
+	font-size: 30px;	
 }
 
 .container_header .menu ul li{
-
 	padding-right: 20px;
-
-
 }
 
 .container_header .menu ul li a{
-
 	text-decoration: none;
 	color:#766F68;
-
-	
 }
 
 .container_slider{
-
-	padding-left: 70px;
-	padding-bottom: 150px;
+	padding-left: 7vw;
+	padding-bottom: 5vw;
 	color:#766F68;
 	background-size: 65%;
 }
 
 .slider_image{
 	position: absolute;
-	margin-left: 360px;
-	width: 68vw;
+	margin-left: 28%;
+	width: 66vw;
+	max-width: 100%;
+	height: auto;
 	float: right;
 	z-index: -1;
 }
 
 .container_slider h2{
-
 	width:50%;
-	font-size: 11.2vh;
-	padding-bottom: 20px;
-
-
+	font-size: 5.4vw;
+	padding-bottom: 30px;
 }
 
 .container_slider p{
-
-	width:40%;
-	font-size: 4.5vh;
+	font-size: 2.1vw;
 	padding-bottom: 60px;
-
-
 }
 
 .container_slider button{
-
 	background-color: #D2872C;
-	font-size: 30px;
+	font-size: 2.5vw;
 	font-weight: bold;
 	color: #fff;
-	padding: 10px 80px 10px 80px;
-	border-radius: 5px;
-
+	padding: 1vw 5vw 1vw 5vw;
+	border-radius: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
