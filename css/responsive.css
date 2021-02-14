@@ -62,3 +62,11 @@
 		padding: 3vw 21vw 3vw 21vw;
 	}
 }
+
+
+/*animações */
+
+@keyframes move {
+
+	0%{margin: 0px -100px 0px -100px; opacity: 0;}
+}
