@@ -14,7 +14,9 @@
 
 	}
 
-	.container_header .menu ul{
+	.container_header .menu ul a
+
+	{
 		display: inline-flex;
 		visibility: hidden;
 	}
