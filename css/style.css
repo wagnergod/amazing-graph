@@ -33,11 +33,6 @@ body{
 	font-size: 2em;
 }
 
-.container_header .mobile_menu div {
-  display: inline;
-  visibility: none;
-} 
-
 .container_header .menu ul{
 	display: flex;
 	align-items: center;
@@ -51,8 +46,14 @@ body{
 
 .container_header .menu ul li a{
 	text-decoration: none;
-	color:#766F68;
+	color:#000;
+	font-weight: 400;
 }
+
+.container_header .mobile_menu div {
+  display: inline;
+  visibility: none;
+} 
 
 .container_slider{
 	padding-left: 7vw;

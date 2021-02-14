@@ -1,97 +1,64 @@
 @media screen and (max-width: 768px){
-
-	.container_header{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	padding: 1em 2em 2.5em 2em;
-	
+	.container_header h2{
+		color:#D2872C;
+		font-weight: bold;
 	}
 
-	.container_header h2{
+	.container_header .menu{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		justify-content: end;
+		margin-bottom: 40px;
+		width:3vw;
 
-	color:#D2872C;
-	font-weight: bold;
-}
-
-.container_header .menu{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: end;
-	margin-bottom: 40px;
-	width:3vw;
-
-
-}
-
-    .container_header .menu .mobile_menu div {
-  	display: flex;
-   	width: 25px;
-  	height: 3px;
-  	background-color: black;
-  	margin: 3px; 
-
-}
-
+	}
 
 	.container_header .menu ul{
+		display: inline-flex;
+		visibility: hidden;
+	}
 
-	display: inline-flex;
-	visibility: hidden;
-	
-}
+ 	.container_header .mobile_menu div {
+	  	display: flex;
+	   	width: 25px;
+	  	height: 3px;
+	  	background-color: black;
+	  	margin: 3px; 
+	}
 
 	.container_slider{
-
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding-left: 0px;
+	}
 
+	.slider_image{
+		text-align: center;
+		margin-left: 0px;
+		position: relative;
+		display: block; 
+		height: auto;
+		z-index: 0;
+		float: none;
 	}
 
 	.container_slider h2{
-	width: 80%; 
-	text-align: center;
-	font-size: 2.5em;
-	padding-bottom: 30px;
-	padding-top: 40px;
+		width: 80%; 
+		text-align: center;
+		font-size: 2.5em;
+		padding-top: 40px;
 	}
 
 	.container_slider p{
-
-	font-size: 5vw;
-	text-align: center;
-	padding-bottom: 60px;
-	}
-
-
-	.slider_image{
-	text-align: center;
-	margin-left: 0px;
-	position: relative;
-	display: block; 
-	height: auto;
-	z-index: 0;
-	float: none;
+		font-size: 5vw;
+		text-align: center;
 	}
 
 	.container_slider button{
-
-	background-color: #D2872C;
-	font-size: 5vw;
-	font-weight: bold;
-	color: #fff;
-	padding: 3vw 21vw 3vw 21vw;
-	border-radius: 15px;
-	
-
+		font-size: 5vw;
+		padding: 3vw 21vw 3vw 21vw;
+	}
 }
-
-}
-
-
-
