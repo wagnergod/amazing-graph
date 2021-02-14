@@ -50,6 +50,14 @@ body{
 	text-decoration: none;
 	color:#000;
 	font-weight: 400;
+	transition: 1s;
+}
+
+.container_header .menu ul li a:hover{
+	color:#D2872C;
+	text-decoration-color: #D2872C;
+
+
 }
 
 .container_header .mobile_menu div {
@@ -104,6 +112,7 @@ body{
 .container_slider button:hover{
 
 	background-color: #A85400;
+
 	
 }
 
