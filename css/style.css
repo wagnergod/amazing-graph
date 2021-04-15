@@ -18,6 +18,33 @@ body{
 	font-family: Roboto, sans-serif;
 }
 
+.mobile_menu_itens{
+	visibility: none;
+	display: none;
+}
+
+.mobile_menu_itens li{
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	background-color: #D2872C;
+	padding: 30px 0 30px 0;
+	font-size: 20px;
+}
+
+.mobile_menu_itens li a{
+	
+	text-decoration: none;
+	color: #000 ;
+}
+
+.mobile_menu_itens li a:hover{
+	
+	text-decoration: none;
+	color: #fff ;
+}
+
+
 .container_header{
 	display: flex;
 	flex-direction: row;
@@ -57,10 +84,14 @@ body{
 	
 }
 
-.container_header .mobile_menu div {
-  display: inline;
-  visibility: none;
+.container_header .mobile_menu a {
+  display: none;
+  text-decoration: none;
+  color: black;
+  visibility: hidden;
+  
 } 
+
 
 .container_slider{
 	padding-left: 7vw;

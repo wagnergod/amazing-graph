@@ -1,7 +1,16 @@
 @media screen and (max-width: 768px){
+	
+	.container_header{
+
+		
+		padding-bottom: 100px;
+		padding-top: 30px;
+	}
+
 	.container_header h2{
 		color:#D2872C;
 		font-weight: bold;
+
 	}
 
 	.container_header .menu{
@@ -9,24 +18,31 @@
 		flex-direction: column;
 		align-items: flex-end;
 		justify-content: end;
-		margin-bottom: 40px;
 		width:3vw;
-
 	}
 
 	.container_header .menu ul a
-
 	{
 		display: inline-flex;
 		visibility: hidden;
 	}
 
- 	.container_header .mobile_menu div {
+ 	.container_header .mobile_menu a {
 	  	display: flex;
-	   	width: 25px;
-	  	height: 3px;
-	  	background-color: black;
-	  	margin: 3px; 
+	  	visibility: visible;
+	  	background-image: url("../img/menu.png");
+	  	background-repeat: no-repeat;
+	  	align-items: middle;
+	  	margin-top: -30px;
+	  	width: 50px;
+	  	height: 50px;
+
+	}
+
+	.container_header .mobile_menu a:hover {
+		box-shadow: all;
+		
+
 	}
 
 	.container_slider{
@@ -72,3 +88,5 @@
 
 	0%{margin: 0px -100px 0px -100px; opacity: 0;}
 }
+
+

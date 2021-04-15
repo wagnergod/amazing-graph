@@ -2,8 +2,6 @@
 <html lang="pt-br">
 <!-- 
 Desafio Dev Challenge
-
-
 -->
 <head>
 	<meta charset="utf-8">
@@ -11,10 +9,20 @@ Desafio Dev Challenge
 	<!-- Arquivos CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Arquivos JS -->
+	<script type="text/javascript" src="js/main.js"></script>
 	<title>Dev Challenge - Amazing Graph</title>
 </head>
 <body>
 <header>
+	<div class= "mobile_menu_itens" id="mobile_menu_itens">
+			<ul>
+				<li><a href ="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
 	<div class="container_header">
 		<h2>DevChallenge</h2>
 		<nav class="menu">
@@ -24,10 +32,9 @@ Desafio Dev Challenge
 			<li><a href="#">Contact</a></li>
 			</ul>
 			<div class="mobile_menu">
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
+			 <a id="link_menu" href="javascript:void(0);" class="icon" onclick="toggleMenu()"></div></a>
+
+  </a>
 			</div>
 		</nav>
 	</div> 
@@ -38,10 +45,7 @@ Desafio Dev Challenge
 			<h2>Create amazing graphics</h2>
 			<p> Colaborate and create beautiful <br>graphics with your team</p>
 			<button>Start Now</button>
-			 
-
 	</div>
 </main>
-
 </body>
 </html>
