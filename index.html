@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!-- 
-Desafio Dev Challenge
--->
+	<!-- 
+		-------------------------------------------------------------
+		Português
+		Dev Challenge - Amazing Graphics
+		Descrição - Seu desafio é criar uma página sobre um site de 
+		criação de gráficos.
+
+		Código por Wagner Godinho - https://github.com/wagnergod/
+		Design e Criação por Lorena GM - https://github.com/Lorenalgm
+		-------------------------------------------------------------
+		English
+		Dev Challenge - Amazing Graphics
+		Description: Your challenge is to build a landing page about 
+		a website that create graphics.
+
+		Code by Wagner Godinho - https://github.com/wagnergod/
+		Design and Creation by Lorena GM - https://github.com/Lorenalgm
+		---------------------------------------------------------------
+	-->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Arquivos CSS -->
+	<!-- Arquivos CSS 
+		 CSS Files -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Arquivos JS -->
+	<!-- Arquivos JS 
+		 JS Files -->
 	<script type="text/javascript" src="js/main.js"></script>
 	<title>Dev Challenge - Amazing Graph</title>
 </head>
 <body>
-<header>
-	<div class= "mobile_menu_itens" id="mobile_menu_itens">
+	<!-- Ínicio da Cabeçalho 
+		 Start of the Header -->
+	<header>
+		<!-- Itens do Menu Mobile - Oculto por padrão 
+			 Mobile menu Items  - Hidden by Default --> 
+		<div class= "mobile_menu_itens" id="mobile_menu_itens">
 			<ul>
 				<li><a href ="#">Home</a></li>
 				<li><a href="#">Features</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
-	<div class="container_header">
-		<h2>DevChallenge</h2>
-		<nav class="menu">
-			<ul>
-			<li><a href="#">Home</a></li> 
-			<li><a href="#">Features</a></li>
-			<li><a href="#">Contact</a></li>
-			</ul>
-			<div class="mobile_menu">
-			 <a id="link_menu" href="javascript:void(0);" class="icon" onclick="toggleMenu()"></div></a>
-
-  </a>
-			</div>
-		</nav>
-	</div> 
-</header>
-<main>
-	<div class="container_slider">
+		<!-- Container DIV para tag <header> 
+			 Container DIV to <header> tag -->
+		<div class="container_header">
+			<!-- Logo -->
+			<h2>DevChallenge</h2> 
+			<!-- Menu Principal 
+				 Main Menu -->
+			<nav class="menu"> 
+				<ul>
+					<li><a href="#">Home</a></li> 
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<!-- Menu Mobile
+					 Mobile Menu -->
+				<div class="mobile_menu">
+					<!-- Um Link que ao ser clicado, chama a função toggleMenu()
+						 A link which on click calls toggleMenu() function -->
+			 		<a id="link_menu" href="javascript:void(0);" class="icon" onclick="toggleMenu()"></a>
+			 	</div>
+			</nav>
+		</div> 
+	</header>
+	<!-- Fim do  Cabeçalho 
+		 End of the Header -->
+	<!-- Ínicio do Conteúdo Principal 
+		 Start of Main Content -->
+	<main>
+		<!-- Container DIV para a tag <main>
+			 Tag <main> Container -->
+		<div class="container_slider">
 			<img src="assets/team-min.jpg" class="slider_image" alt="equipe de gráficos">
 			<h2>Create amazing graphics</h2>
 			<p> Colaborate and create beautiful <br>graphics with your team</p>
 			<button>Start Now</button>
-	</div>
-</main>
+		</div>
+	</main>
+	<!-- Fim do Conteúdo Principal
+		 End of Main Content -->
 </body>
 </html>
