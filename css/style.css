@@ -1,3 +1,7 @@
+/* style.css por | by Wagner Godinho - Atualizado em | Update: 25/04/2021 */
+
+/* Tags */
+
 *{
 	margin: 0;
 	padding: 0;
@@ -17,6 +21,8 @@ html{
 body{
 	font-family: Roboto, sans-serif;
 }
+
+/* .mobile_menu_itens classes and tags */
 
 .mobile_menu_itens{
 	visibility: none;
@@ -44,6 +50,7 @@ body{
 	color: #fff ;
 }
 
+/* .container_header classes and tags */
 
 .container_header{
 	display: flex;
@@ -92,6 +99,7 @@ body{
   
 } 
 
+/* .container_slider classes and tags */
 
 .container_slider{
 	padding-left: 7vw;
@@ -144,9 +152,11 @@ body{
 	
 }
 
+/* Font Import from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Animações */
+/* Animações / Animations */
 
 @keyframes move {
 

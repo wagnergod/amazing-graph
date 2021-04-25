@@ -1,5 +1,13 @@
+/* responsive.css por | by Wagner Godinho - Atualizado em | Update: 25/04/2021 */
+
+/* Arquivo CSS para adaptar site em telas menores */
+
+/* CSS file to adapt website to smaller screens */
+
 @media screen and (max-width: 768px){
 	
+	/* .container_header classes */
+
 	.container_header{
 
 		
@@ -41,10 +49,11 @@
 
 	.container_header .mobile_menu a:hover {
 		box-shadow: all;
-		
 
 	}
 
+	/* .container_slider classes */
+	
 	.container_slider{
 		display: flex;
 		flex-direction: column;
@@ -82,7 +91,7 @@
 }
 
 
-/*animações */
+/* animações / animations  */
 
 @keyframes move {
 
