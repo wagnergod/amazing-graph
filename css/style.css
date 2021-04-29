@@ -59,7 +59,7 @@ body{
 	justify-content: space-between;
 	padding: 40px 30px 100px 40px;
 	animation-name: move;
-	animation-duration: 1s;
+	animation-duration: 2s;
 }
 
 .container_header h2{
@@ -160,7 +160,7 @@ body{
 
 @keyframes move {
 
-	0%{margin: 0px 50px 0px 0px; opacity: 0;}
+	0%{margin: 0px 10px 0px 0px; opacity: 0;}
 }
 
 @keyframes opac{
